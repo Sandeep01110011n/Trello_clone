@@ -4,7 +4,7 @@ import Board from "./pages/Board";
 import Navbar from "./components/Navbar";
 
 function App() {
-  console.log(import.meta.env.VITE_APP_KES);
+  console.log("vite" + ":" + import.meta.env.VITE_APP_KES);
 
   return (
     <>
